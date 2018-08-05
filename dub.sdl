@@ -1,0 +1,10 @@
+name "dreplpy"
+description "wrap drepl for python"
+authors "laeeth"
+copyright "Copyright © 2018, laeeth"
+license "proprietary"
+dependency "drepl" version="~master"
+subConfiguration "drepl" "library"
+dependency "autowrap:python" version="~master"
+targetType "dynamicLibrary"
+
